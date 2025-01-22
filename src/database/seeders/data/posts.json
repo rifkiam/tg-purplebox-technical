@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Some Post 1",
+        "content": "Some Post 1's Content",
+        "visibility": "PUBLIC",
+        "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    },
+    {
+        "title": "Some Post 2",
+        "content": "Some Post 2's Content",
+        "visibility": "PRIVATE",
+        "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    }
+]

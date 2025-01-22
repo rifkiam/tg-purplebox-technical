@@ -6,3 +6,5 @@ yarn.lock
 tsconfig.json
 dist
 ./src/database/schema.prisma
+./src/database/migrations/**/*.sql
+./src/database/migrations/**/*.toml

@@ -24,7 +24,14 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Talentgrowth Purple Box Technical Test Repository, built with [Nest](https://github.com/nestjs/nest)
+
+It is also worth noting that it is recommended for you to install Node.js v18.x.x or later and [Yarn](https://yarnpkg.com/getting-started/install) to run this backend app.
+
+You can easily install Yarn by running the following command:
+```bash
+$ npm install yarn -g
+```
 
 ## Installation
 
@@ -33,6 +40,23 @@ $ yarn install
 ```
 
 ## Running the app
+
+**Firstly,** make a copy of the **.env.example** file and rename it to **.env**. Change the database variables (MYSQL_*) to match the ones used in your server/local machine. 
+
+**Secondly,** connect to the database, by running the commands below:
+
+```bash
+# Apply migrations 
+$ yarn db:migrate
+
+# Seed database (if needed)
+$ yarn db:seed
+```
+
+This will apply the existing migration in the src/database/migrations folder and populate the db with the seeder data
+<br>
+
+To run the backend app, run one of the commands below depending on your needs:
 
 ```bash
 # development

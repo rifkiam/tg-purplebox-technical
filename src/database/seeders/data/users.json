@@ -1,16 +1,18 @@
 [
-  {
-    "name": "Testing User",
-    "username": "testinguser",
-    "email": "testuser@mail.com",
-    "password": "password",
-    "user_type": "USER"
-  },
-  {
-    "name": "Testing Admin",
-    "username": "testingadmin",
-    "email": "testadmin@mail.com",
-    "password": "password",
-    "user_type": "ADMIN"
-  }
+    {
+        "id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5",
+        "name": "Testing User",
+        "username": "testinguser",
+        "email": "testuser@mail.com",
+        "password": "password",
+        "user_type": "USER"
+    },
+    {
+        "id": "506857b1-b7e4-47fa-bd7d-cbb03d2328fc",
+        "name": "Testing Admin",
+        "username": "testingadmin",
+        "email": "testadmin@mail.com",
+        "password": "password",
+        "user_type": "ADMIN"
+    }
 ]

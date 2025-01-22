@@ -1,5 +1,5 @@
 {
-  "src/**":[
+  "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
     "yarn format",
     "yarn build && rimraf dist",
     "yarn lint"
