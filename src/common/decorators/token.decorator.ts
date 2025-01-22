@@ -10,6 +10,10 @@ export const Token = createParamDecorator(
         const request = ctx.switchToHttp().getRequest();
         const token = request.headers?.authorization ?? null;
 
+        if (!token) {
+            return;
+        }
+
         if (token.split(' ').length < 2)
             throw new UnauthorizedException('Invalid Token');
 

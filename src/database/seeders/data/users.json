@@ -8,6 +8,22 @@
         "user_type": "USER"
     },
     {
+        "id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409",
+        "name": "Testing User 2",
+        "username": "testinguser2",
+        "email": "testuser2@mail.com",
+        "password": "password",
+        "user_type": "USER"
+    },
+    {
+        "id": "918e139f-47e2-4abf-952d-089bec44e54e",
+        "name": "Testing User 3",
+        "username": "testinguser3",
+        "email": "testuser3@mail.com",
+        "password": "password",
+        "user_type": "USER"
+    },
+    {
         "id": "506857b1-b7e4-47fa-bd7d-cbb03d2328fc",
         "name": "Testing Admin",
         "username": "testingadmin",

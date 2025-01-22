@@ -16,28 +16,28 @@ import { AuthService } from './auth.service';
 import { LoginDto } from './dtos/login.dto';
 import { RegisterDto } from './dtos/register.dto';
 
-@Controller('auth')
+@Controller('')
 @ApiTags('Authentication')
 export class AuthController {
     constructor(private readonly authService: AuthService) {}
 
-    @Post('login')
+    @Post('auth/login')
     @HttpCode(200)
-    @ResponseMessage('Success login')
+    @ResponseMessage('Login success')
     async login(@Body() loginDto: LoginDto) {
         const login = await this.authService.login(loginDto);
         return login;
     }
 
-    @Post('register')
+    @Post('auth/register')
     @HttpCode(201)
-    @ResponseMessage('Success create new user')
+    @ResponseMessage('Successfully created new user')
     async register(@Body() registerDto: RegisterDto) {
         const register = await this.authService.register(registerDto);
         return register;
     }
 
-    @Get('me')
+    @Get('profile')
     @UseGuards(JwtAuthGuard)
     @ApiBearerAuth()
     @HttpCode(200)

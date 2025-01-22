@@ -10,5 +10,89 @@
         "content": "Some Post 2's Content",
         "visibility": "PRIVATE",
         "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    },
+    {
+        "title": "Some Post 3",
+        "content": "Some Post 3's Content",
+        "visibility": "PUBLIC",
+        "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    },
+    {
+        "title": "Some Post 4",
+        "content": "Some Post 4's Content",
+        "visibility": "PRIVATE",
+        "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    },
+    {
+        "title": "Some Post 5",
+        "content": "Some Post 5's Content",
+        "visibility": "PUBLIC",
+        "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    },
+    {
+        "title": "Some Post 6",
+        "content": "Some Post 6's Content",
+        "visibility": "PRIVATE",
+        "user_id": "6861f0c4-cdfa-4af0-9c7a-128a7ef80ae5"
+    },
+    {
+        "title": "Some Post 7",
+        "content": "Some Post 7's Content",
+        "visibility": "PUBLIC",
+        "user_id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409"
+    },
+    {
+        "title": "Some Post 8",
+        "content": "Some Post 8's Content",
+        "visibility": "PRIVATE",
+        "user_id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409"
+    },
+    {
+        "title": "Some Post 9",
+        "content": "Some Post 9's Content",
+        "visibility": "PUBLIC",
+        "user_id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409"
+    },
+    {
+        "title": "Some Post 10",
+        "content": "Some Post 10's Content",
+        "visibility": "PRIVATE",
+        "user_id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409"
+    },
+    {
+        "title": "Some Post 11",
+        "content": "Some Post 11's Content",
+        "visibility": "PUBLIC",
+        "user_id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409"
+    },
+    {
+        "title": "Some Post 12",
+        "content": "Some Post 12's Content",
+        "visibility": "PRIVATE",
+        "user_id": "1499e5ab-122b-4b2c-ac71-d7ae1bc2c409"
+    },
+    {
+        "title": "Some Post 13",
+        "content": "Some Post 13's Content",
+        "visibility": "PUBLIC",
+        "user_id": "918e139f-47e2-4abf-952d-089bec44e54e"
+    },
+    {
+        "title": "Some Post 14",
+        "content": "Some Post 14's Content",
+        "visibility": "PRIVATE",
+        "user_id": "918e139f-47e2-4abf-952d-089bec44e54e"
+    },
+    {
+        "title": "Some Post 15",
+        "content": "Some Post 15's Content",
+        "visibility": "PUBLIC",
+        "user_id": "918e139f-47e2-4abf-952d-089bec44e54e"
+    },
+    {
+        "title": "Some Post 16",
+        "content": "Some Post 16's Content",
+        "visibility": "PRIVATE",
+        "user_id": "918e139f-47e2-4abf-952d-089bec44e54e"
     }
 ]
