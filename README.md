@@ -26,6 +26,10 @@
 
 Talentgrowth Purple Box Technical Test Repository, built with [Nest](https://github.com/nestjs/nest)
 
+The Backend API Technical Test I made a replication of a blog post, that will be bound by `user_id`, where every user can post a blog which consists of `{ title, content, visibility }` and where `visibility` can be either `PUBLIC` or `PRIVATE`. 
+
+It also has an admin role where it can see users's posts, be it `PUBLIC` or `PRIVATE`, and can delete a user's post regardless of the ownership.
+
 It is also worth noting that it is recommended for you to install Node.js v18.x.x or later and [Yarn](https://yarnpkg.com/getting-started/install) package manager to run this backend app.
 
 You can easily install Yarn by running the following command:
