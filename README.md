@@ -26,7 +26,7 @@
 
 Talentgrowth Purple Box Technical Test Repository, built with [Nest](https://github.com/nestjs/nest)
 
-It is also worth noting that it is recommended for you to install Node.js v18.x.x or later and [Yarn](https://yarnpkg.com/getting-started/install) to run this backend app.
+It is also worth noting that it is recommended for you to install Node.js v18.x.x or later and [Yarn](https://yarnpkg.com/getting-started/install) package manager to run this backend app.
 
 You can easily install Yarn by running the following command:
 ```bash
@@ -35,8 +35,13 @@ $ npm install yarn -g
 
 ## Installation
 
+Install the packages:
+
 ```bash
 $ yarn install
+
+# Or simply,
+$ yarn
 ```
 
 ## Running the app
@@ -69,29 +74,11 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
-## Test
 
-```bash
-# unit tests
-$ yarn run test
+## API Documentation
 
-# e2e tests
-$ yarn run test:e2e
+You can access the API Documentation using the builtin Swagger module when running the app by adding the path /api/docs, for example:
 
-# test coverage
-$ yarn run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+http://localhost:3000/api/docs
+```
